@@ -11,8 +11,8 @@ from mathematics.geometry import rectangle
 print ("Main package name:", math_whoami.getname())
 
 print("\nNumbers whoami:", numbers_whoami.getname())
-print("Sum:", series.sum_total(total = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
-print("Average:", series.average(avg = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+print("Sum:", series.sum_total(list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+print("Average:", series.average(list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
 print("Addition:", simple.addition(left = 7, right = 7))
 print("Subtraction:", simple.subtraction(left = 2, right = 7))
 print("Multiplication:", simple.multiplication(left = 5, right = -2))
